@@ -1,0 +1,10 @@
+node_modules/
+build/
+*.css
+stubs/
+dist/
+*.html
+*.js
+*.json
+*.jpg
+*.svg

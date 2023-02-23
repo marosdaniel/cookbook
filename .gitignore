@@ -1,0 +1,52 @@
+### Custom ##################
+.bak/
+.local/
+.tmp/
+*@tmp
+
+### STS #####################
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ################
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+
+### IntelliJ IDEA ###########
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### VS Code #################
+.vscode/
+!.vscode/snippets0.code-snippets
+
+### Fortify #################
+*.fpr
+
+### OSX #####################
+.DS_Store
+
+### Sonar ###################
+.scannerwork/
+
+### Node.js #################
+node_modules/
+coverage/
+dist/
+.npmrc
+.nvmrc
+*.tgz
+npm-debug.log
+yarn-error.log
+*.pem
