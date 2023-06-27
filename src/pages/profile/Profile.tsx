@@ -8,7 +8,7 @@ import UserProfile from '@/components/user-profile/UserProfile';
 
 const Profile = () => {
   const router = useRouter();
-  const { status, data: session } = useSession();
+  const { data: session } = useSession();
 
   if (!session) {
     router.push('/signin');
